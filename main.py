@@ -11,7 +11,7 @@ class Asiento:
 
 class Auto:
     cantidadCreados = 0
-    def __init__(self,modelo=None,precio=0,asientos=None,motor=None,marca=None,registro=0):
+    def __init__(self,modelo=None,precio=0,asientos=None,marca=None,motor=None,registro=0):
         self.modelo = modelo
         self.precio = precio
         self.asientos = asientos
@@ -34,7 +34,6 @@ class Auto:
     
     def verificarIntegridad(self):
 
-        print(self.motor)
 
         if self.motor and self.registro == self.motor.registro:
 

@@ -16,7 +16,7 @@ class Auto:
         self.precio = precio
         self.asientos = asientos
         self.marca = marca
-        self.motor = Motor(motor)
+        self.motor = motor
         self.registro = registro
         
         Auto.cantidadCreados += 1

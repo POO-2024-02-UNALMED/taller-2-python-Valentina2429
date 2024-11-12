@@ -34,7 +34,7 @@ class Auto:
     
     def verificarIntegridad(self):
 
-        if self.registro == self.motor.registro:
+        if self.motor and self.registro == self.motor.registro:
 
             for asiento in self.asientos:
 

@@ -14,10 +14,11 @@ class Auto:
     def __init__(self,modelo,precio,asientos,motor,marca,registro):
         self.modelo = modelo
         self.precio = precio
+        self.asientos = asientos
         self.marca = marca
         self.motor = motor
         self.registro = registro
-        self.asientos = asientos
+        
         Auto.cantidadCreados += 1
 
     def cantidadAsientos(self):

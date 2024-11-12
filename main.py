@@ -16,14 +16,8 @@ class Auto:
         self.precio = precio
         self.asientos = asientos
         self.marca = marca
-        
+        self.motor = motor
         self.registro = registro
-
-        if isinstance(motor, Motor):
-            self.motor = motor              
-        else:
-            
-            raise ValueError("El atributo motor debe ser una instancia de la clase Motor")
         
         Auto.cantidadCreados += 1
 
